@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body {  
+        margin: 0;
+        padding: 0;
+        height: 10vh;
+        background-color: lightblue;
+        background-image: linear-gradient(white 1px, transparent 1px) , linear-gradient(90deg, white 1px, transparent 1px);
+        background-size: 20px 20px;
+        color:black; /* tekstin vÃ¤ri*/
+        font-family:'Courier New', Courier, monospace;
+        
+}
+h1 {    color:rgb(5, 59, 80);
+        text-align: center;
+} 
+main {  width: 75%;
+        margin: auto;
+        background-color:rgb(238, 238, 238);
+        padding: 20px 20px 20px 20px;
+        border: 3px rgb(5, 59, 80) solid;
+        border-radius: 5%;
+}
+header {text-align: center;
+        padding: 20px;
+}
+footer {border-top:  rgb(5, 59, 80);
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+
+}
+nav > a {color:rgb(5, 59, 80);
+        background-color: lightblue;
+        padding: 10px;
+        margin: 5px;
+        display:inline-block;
+        width: 8em;
+        border: 2px solid rgb(5, 59, 80);
+        text-align: center;
+        text-decoration: none;
+}
+.sivulla {
+    background-color: rgb(78, 156, 181);
+}
+
+.frogDiv {
+    text-align: center;
+}

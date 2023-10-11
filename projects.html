@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memm's Portal</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        div.gallery {
+          border: 1px solid #ccc;
+        }
+        
+        div.gallery:hover {
+          border: 1px solid #777;
+        }
+        
+        div.gallery img {
+          width: 100%;
+          height: auto;
+        }
+        
+        div.desc {
+          padding: 15px;
+          text-align: center;
+        }
+        
+        * {
+          box-sizing: border-box;
+        }
+        
+        .responsive {
+          padding: 0 6px;
+          float: left;
+          width: 24.99999%;
+        }
+        
+        @media only screen and (max-width: 700px) {
+          .responsive {
+            width: 49.99999%;
+            margin: 6px 0;
+          }
+        }
+        
+        @media only screen and (max-width: 500px) {
+          .responsive {
+            width: 100%;
+          }
+        }
+        
+        .clearfix:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        </style>
+</head>
+<body>
+    <main>
+        <h1>PROJECTS</h1>
+        <header>
+          <!-- Navigaatio sivun sisalla -->
+          <nav>
+          <a href="index.html">Main Page</a>
+          <a href="info.html">Info</a>
+          <a href="projects.html" class="sivulla tummempi">Projects</a>
+         <a href="contacts.html">Contact Me</a>
+         </nav>
+        </header>
+        <p>You are in the projects menu.</p>
+        <br>
+        <p>I  play a lot of minecraft but here is a surface scraper for some recent minecraft modpacks I've dabbled in.</p>
+        <p>Here are some scenery photos I've taken across multiple games.</p>
+        <br>
+
+        <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="scenery1.jpg">
+                <img src="scenery1.jpg" alt="sunrise">
+              </a>
+              <div class="desc">Sunrise in Taiga biome.</div>
+            </div>
+          </div>
+          
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="scenery2.jpg">
+                <img src="scenery2.jpg" alt="mountains">
+              </a>
+              <div class="desc">Daylight in the mountains.</div>
+            </div>
+          </div>
+          
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="scenery3.jpg">
+                <img src="scenery3.jpg" alt="river valley">
+              </a>
+              <div class="desc">Peace of river valley.</div>
+            </div>
+          </div>
+          
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="scenery6.jpg">
+                <img src="scenery6.jpg" alt="a kingdom">
+              </a>
+              <div class="desc">A castle in the distance.</div>
+            </div>
+          </div>
+          
+          <div class="clearfix"></div>
+          <div style="padding:6px;"></div>
+
+        <br>
+        <p>These are just the tip  of the iceberg of at least 59 different modpacks I've recorded these from.</p>
+        <br>
+        <p>Next up are some modpacks like TNP6 and Vaulthunters 3</p>
+
+        <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="tnp2.jpg">
+                <img src="tnp2.jpg" alt="player Nooblesss showing of their cape">
+              </a>
+              <div class="desc">My friend showing off their cape.</div>
+            </div>
+          </div>
+          
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="meme5.jpg">
+                <img src="meme5.jpg" alt="mountains">
+              </a>
+              <div class="desc">A quest tree of a modpack.</div>
+            </div>
+          </div>
+          
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="vault2.png">
+                <img src="vault2.png" alt="completed vault 34">
+              </a>
+              <div class="desc">Completed vault on 20 seconds left.</div>
+            </div>
+          </div>
+          
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href=".jpg">
+                <img src=".jpg" alt="sandwich" width="600" height="400">
+              </a>
+              <div class="desc">"what are you?" -an idiot sandwich.</div>
+            </div>
+          </div>
+          
+          <div class="clearfix"></div>
+          <div style="padding:6px;"></div>
+
+        <hr>
+        <footer>
+            &copy;Mars
+        </footer>
+    </main>
+</body>
+</html>
